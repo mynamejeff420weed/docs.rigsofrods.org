@@ -315,7 +315,8 @@ After installing these you have to edit your input map and define there joystick
 Input map is located in: <b>Documents/Rigs of Rods 0.xx/config</b> and open a file called <b>Input.map</b>.
  I use mouse to control steering and throttle but I suppose you could use it to control anything you want. Add these lines in the input.map to get steering and throttle control: 
  
-    TRUCK_ACCELERATE    JoystickAxis    0    1    LOWER
+    TRUCK_ACCELERATE    JoystickAxis    0    1    v
+    
     TRUCK_BRAKE         JoystickAxis    0    1    UPPER
     TRUCK_STEER_LEFT    JoystickAxis    0    0    LOWER + DEADZONE = 0.00
     TRUCK_STEER_RIGHT   JoystickAxis    0    0    UPPER + DEADZONE = 0.00
